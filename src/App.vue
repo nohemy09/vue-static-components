@@ -11,15 +11,15 @@
         },
         {
           id: 2,
-          title: "El resplandor 2",
+          title: "Carrie",
           author: "Stephen King",
-          releaseDate: "1997-28-01" 
+          releaseDate: "1974-05-04" 
         },
         {
           id: 3,
-          title: "El resplandor 3",
+          title: "Cujo",
           author: "Stephen King",
-          releaseDate: "1997-28-01"
+          releaseDate: "1981-08-09"
         },
       ],
     };
@@ -30,9 +30,26 @@
 <template>
   <h1>My books</h1>
   <ul>
-    <book-info></book-info>
-    <book-info></book-info>
-    <book-info></book-info>
+    <book-info
+    id ="1" 
+    title ="El resplandor"
+    author ="Stephen King"
+    releaseDate ="1999-29-07"
+    is-liked="1"
+    ></book-info>
+    <book-info
+    id ="1" 
+    title ="Carrie"
+    author ="Stephen King"
+    releaseDate ="1984-09-09"
+    ></book-info>
+    <book-info
+    id ="1" 
+    title ="Cujo"
+    author ="Stephen King"
+    releaseDate ="1991-09-09"
+    is-liked="1"
+    ></book-info>
   </ul>
 </template>
 
